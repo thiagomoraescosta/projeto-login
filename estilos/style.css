@@ -32,7 +32,7 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 600px;
+    height: 555px;
     margin: 1px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -43,15 +43,15 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-lawlesscapture-13737562.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-jahoo-clouseau-388419.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
-    height: 300px;
+    background-position: center bottom;
+    height: 250px;
 }
 
-section#longin > div#formulario {
+section#login > div#formulario {
     display: block;
-    padding: 10px;    
+    padding: 4px;    
 }
 
 div#formulario > h1 {
@@ -60,6 +60,7 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    text-align: justify;
     font-size: 0.8em;    
 }
 
